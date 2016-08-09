@@ -1,0 +1,15 @@
+{
+  "name": "front",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery-ui": "~1.11.4",
+    "animate.css": "~3.5.1",
+    "wow": "wowjs#~1.1.2",
+    "font-awesome": "fontawesome#~4.6.3",
+    "bootstrap": "~3.3.6",
+    "owl.carousel": "owl-carousel2#~2.1.5"
+  },
+  "devDependencies": {
+    "jquery.scrollbar": "https://github.com/gromo/jquery.scrollbar.git#~0.2.10"
+  }
+}
