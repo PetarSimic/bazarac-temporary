@@ -4,6 +4,7 @@ body{
   font-size: 14px;
   line-height: 1.2;
   overflow-x: hidden;
+  background-color: #eee;
 }
 
 @media (max-width: 767px){
@@ -21,12 +22,18 @@ body{
   }
 }
 
+@media (min-width: 1700px) {
+  .container {
+    width: 1630px;
+  }
+}
+
 ::selection {
-  background: $blue; /* WebKit/Blink Browsers */
+  background: $color1; /* WebKit/Blink Browsers */
   color: $white!important;
 }
 ::-moz-selection {
-  background: $blue; /* Gecko Browsers */
+  background: $color1; /* Gecko Browsers */
   color: $white!important;
 }
 
@@ -106,10 +113,9 @@ img {
 .clear{clear: both;}
 .center{text-align: center;}
 .padd-1{padding: 1px;}
-.important{color: $pink;}
+.important{color: $color1;}
 
-.color1{color: $blue;}
-.color2{color: $pink;}
+.color1{color: $color1;}
 
 
 .child-block-on-480{
@@ -179,6 +185,11 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.slider-pos-helper {
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 @media(max-width: 600px){

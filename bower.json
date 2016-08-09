@@ -7,7 +7,7 @@
     "wow": "wowjs#~1.1.2",
     "font-awesome": "fontawesome#~4.6.3",
     "bootstrap": "~3.3.6",
-    "owl.carousel": "owl-carousel2#~2.1.5"
+    "slick-carousel": "~1.6.0"
   },
   "devDependencies": {
     "jquery.scrollbar": "https://github.com/gromo/jquery.scrollbar.git#~0.2.10"

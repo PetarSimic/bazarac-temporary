@@ -1,18 +1,12 @@
 @import "reset";
 
-
-/* MAIN CSS */
-//@import "basic-css/bootstrap.min.scss";
-//@import "../bower_components/jquery-ui/themes/ui-lightness/jquery-ui.min.css";
-//@import "basic-css/animate.scss";
-//@import "basic-css/hover-min.scss";
-
 /* FONTS*/
-//@import "../bower_components/font-awesome/css/font-awesome.min.css";
+@import "../bower_components/font-awesome/css/font-awesome.min.css";
 
 /* PLUGIN CSS */
-//@import "../bower_components/bootstrap/dist/css/bootstrap.min.css";
-//@import "../bower_components/owl.carousel/dist/assets/owl.carousel.min.css";
+@import "../bower_components/bootstrap/dist/css/bootstrap.min.css";
+@import "../bower_components/slick-carousel/slick/slick-theme.css";
+@import "../bower_components/slick-carousel/slick/slick.css";
 //@import "../bower_components/animate.css/animate.min.css";
 //@import "../no_bower_components/glasscase/glasscase_production/css/glasscase.min.css";
 
@@ -49,5 +43,5 @@
 // ***********************************
 // SECTIONS
 // ***********************************
-//@import "sections/header";
+@import "sections/header";
 //@import "sections/footer";
