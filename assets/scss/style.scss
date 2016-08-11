@@ -5,7 +5,7 @@
 
 /* PLUGIN CSS */
 @import "../bower_components/bootstrap/dist/css/bootstrap.min.css";
-@import "../bower_components/slick-carousel/slick/slick-theme.css";
+//@import "../bower_components/slick-carousel/slick/slick-theme.css";
 @import "../bower_components/slick-carousel/slick/slick.css";
 //@import "../bower_components/animate.css/animate.min.css";
 //@import "../no_bower_components/glasscase/glasscase_production/css/glasscase.min.css";
@@ -26,7 +26,7 @@
 // ***********************************
 // UI ELEMENTS
 // ***********************************
-//@import "ui/sliders";
+@import "ui/sliders";
 //@import "ui/search";
 //@import "ui/tabs";
 //@import "ui/forms";
@@ -44,4 +44,5 @@
 // SECTIONS
 // ***********************************
 @import "sections/header";
-//@import "sections/footer";
+@import "sections/home";
+@import "sections/footer";

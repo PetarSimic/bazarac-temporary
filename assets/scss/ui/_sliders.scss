@@ -1,0 +1,49 @@
+.slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: -70px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+  background: $white;
+  border: 1px solid $color1;
+  color: $color1;
+  @include transition-all(0.4s);
+  &:hover {
+    background-color: $color1;
+    color: $white;
+  }
+}
+
+.slick-prev {
+  right: 70px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: FontAwesome;
+  font-size: 36px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev:before {
+  content: "\f104";
+}
+.slick-next:before {
+  content: "\f105";
+}
+
+
+.arr-both {
+
+  .slick-prev {
+    left: 10px;
+  }
+}
